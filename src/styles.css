@@ -36,8 +36,24 @@ header{
         font-weight: 600;
         box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
         cursor: pointer;
+        transition: all 0.3s ease;
     }
 }
-body{
-    background-color: var(--background-color);
+#content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 91vh;
+    background-image: url('./img/restaurant.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+button:hover{
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+
 }

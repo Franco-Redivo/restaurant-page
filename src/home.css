@@ -6,6 +6,7 @@
 :root{
     --primary-green: #798645;
     --primary-dark-green: #626F47;
+    --primary-dark-green-transparent: #626f47c5;
     --secondary-color: #Ab886D;
     --background-color: #FEFAE0;
     --background-color-dark: #F2EED7;
@@ -18,6 +19,38 @@
     --sidebar-dark-color: #191D2B;
 }
 .banner{
+    height: 510px;
+    width: 1000px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    background-color: var(--primary-dark-green-transparent);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    & h1{
+        color: var(--white-color);
+        font-size: 3rem;
+        margin-top: 20px;
+    }
+    & p{
+        color: var(--white-color);
+        font-size: 1.6rem;
+        margin-top: 25px;
     
-    
+    }
+    & button{
+        margin-top: 30px;
+        height: 65px;
+        width: 130px;
+        padding: 5px;
+        background-color: var(--background-color);
+        border-radius: 10px;
+        border: 2px solid var(--border-color);
+        color: var(--font-dark-color);
+        font-size: 1.1rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
 }
