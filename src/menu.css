@@ -21,6 +21,7 @@
     height: 650px;
     width: 900px;
     padding: 20px 40px;
+    border-radius: 10px;
     & h1{
         color: var(--white-color);
         font-size: 3rem;
